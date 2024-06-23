@@ -11,7 +11,7 @@ SUBJECT_ID_COLUMN = "subject_id"
 DOWNLOAD_DIRECTORY_MIMICIII = (
     "data/raw/physionet.org/files/mimiciii/1.4"  # Path to the MIMIC-III data. Example: ~/mimiciii/1.4
 )
-DOWNLOAD_DIRECTORY_MIMICIV = " data/raw/physionet.org/files/mimiciv/2.2"  # Path to the MIMIC-IV data. Example: ~/physionet.org/files/mimiciv/2.2
+DOWNLOAD_DIRECTORY_MIMICIV = "data/raw/physionet.org/files/mimiciv/2.2"  # Path to the MIMIC-IV data. Example: ~/physionet.org/files/mimiciv/2.2
 DOWNLOAD_DIRECTORY_MIMICIV_NOTE = "data/raw/physionet.org/files/mimic-iv-note/2.2"  # Path to the MIMIC-IV-Note data. Example: ~/physionet.org/files/mimic-iv-note/2.2
 
 
