@@ -140,3 +140,5 @@ wandb
 outputs
 download/
 data/raw/
+
+files/data/mimic*/mimic*.feather
