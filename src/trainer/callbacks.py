@@ -101,6 +101,10 @@ class WandbCallback(BaseCallback):
             wandb_cfg["data_info"] = trainer.lookups.data_info
             OmegaConf.save(trainer.config, trainer.experiment_path / "config.yaml")
 
+        # breakpoint()
+        if 'dir' in self.config:
+            self.config.__delattr__('dir')
+
         wandb.init(
             config=wandb_cfg,
             settings=wandb.Settings(start_method="thread"),
