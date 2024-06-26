@@ -142,3 +142,5 @@ download/
 data/raw/
 
 files/data/mimic*/mimic*.feather
+mimic-data/
+.DS_Store
